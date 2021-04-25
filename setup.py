@@ -94,12 +94,12 @@ def find_package_data(
     return out
 
 
-PACKAGE = "libpythonpro"
+PACKAGE = "libpythonproRhm"
 NAME = PACKAGE
 DESCRIPTION = "Módulo para exemplificar construção de projetos Python no curso PyTools"
-AUTHOR = "Renzo Nuccitelli"
-AUTHOR_EMAIL = "renzo@python.pro.br"
-URL = "https://github.com/pythonprobr/libpythonpro"
+AUTHOR = "RicardoHMoreno"
+AUTHOR_EMAIL = "no_user@gmail.com"
+URL = "https://github.com/RicardoHMoreno/libpythonpro2"
 VERSION = __import__(PACKAGE).__version__
 
 setup(
@@ -121,7 +121,7 @@ setup(
         "License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)",
         "Operating System :: OS Independent",
         "Programming Language :: Python",
-        "Programming Language :: Python :: 3.6",
+        "Programming Language :: Python :: 3.9",
         "Framework :: Pytest",
     ],
     install_requires=[
