@@ -9,4 +9,8 @@ attrs==19.2.0
 pluggy==0.12
 atomicwrites==1.0
 pytest==6.2.3
+
+# Coverage
+pytest-cov==2.11.1
+coverage==5.5
 -r requirements.txt
