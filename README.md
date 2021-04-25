@@ -9,6 +9,7 @@ Link para o curso [Python Pro](https://www.python.pro.br)
 [![Updates](https://pyup.io/repos/github/RicardoHMoreno/libpythonpro2/shield.svg)](https://pyup.io/repos/github/RicardoHMoreno/libpythonpro2/)
 [![Python 3](https://pyup.io/repos/github/RicardoHMoreno/libpythonpro2/python-3-shield.svg)](https://pyup.io/repos/github/RicardoHMoreno/libpythonpro2/)
 [![codecov](https://codecov.io/gh/RicardoHMoreno/libpythonpro2/branch/main/graph/badge.svg?token=TN06026B45)](https://codecov.io/gh/RicardoHMoreno/libpythonpro2)
+
 Suportada versão 3 de Python
 
 Para instalar:
