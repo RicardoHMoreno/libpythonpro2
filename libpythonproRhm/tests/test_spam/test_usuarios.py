@@ -1,0 +1,25 @@
+from libpythonproRhm.spam.db import Conexao
+from libpythonproRhm.spam.modelos import Usuario
+
+
+def test_savar_usuario():
+    conexao = Conexao()
+    sessao = conexao.gerar_sessao()
+    usuario = Usuario(nome='Renzo')
+    sessao.salvar(usuario)
+    assert isinstance(usuario.id, int)
+    sessao.rollback()
+    sessao.fechar()
+    conexao.fechar()
+
+
+def test_listar_usuario():
+    conexao = Conexao()
+    sessao = conexao.gerar_sessao()
+    usuarios = [Usuario(nome='Renzo'), Usuario(nome='Luciano')]
+    for usuario in usuarios:
+        sessao.salvar(usuario)
+    assert usuarios == sessao.listar()
+    sessao.rollback()
+    sessao.fechar()
+    conexao.fechar()
