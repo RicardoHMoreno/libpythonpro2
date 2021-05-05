@@ -4,7 +4,7 @@ from libpythonproRhm.spam.enviador_de_email import Enviador, EmailInvalido
 
 
 def test_criar_enviador_de_email():
-    enviador=Enviador()
+    enviador = Enviador()
     assert enviador is not None
 
 
@@ -16,7 +16,7 @@ def test_remetente(remetente):
     enviador = Enviador()
     resultado = enviador.enviar(
         remetente,
-        'ricardohm007@gmail.com',
+        'luciano@python.pro.br',
         'Cursos pythom pro',
         'Primeira turma aberta!'
     )
