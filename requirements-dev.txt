@@ -8,7 +8,7 @@ py==1.10.0
 attrs==19.2.0
 pluggy==0.12
 atomicwrites==1.0
-pytest==6.2.3
+pytest==6.2.4
 
 # Coverage
 pytest-cov==2.11.1
